@@ -1,0 +1,11 @@
+.Logo {
+  &__title {
+    margin: 0;
+    font-size: $font-l;
+
+    a {
+      text-decoration: none;
+      color: $text-light
+    }
+  }
+}

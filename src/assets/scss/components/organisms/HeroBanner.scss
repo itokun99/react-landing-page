@@ -1,0 +1,16 @@
+.HeroBanner {
+  background-color: $theme-primary;
+
+  &__wrapper {
+    height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__content {
+    max-width: 525px;
+    color: $text-light
+  }
+}

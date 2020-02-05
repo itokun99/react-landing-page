@@ -1,0 +1,14 @@
+.Nav {
+  &__item {
+    font-size: $font-s;
+    color: $text-light;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: $gutter-sm;
+    padding-right: $gutter-sm;
+
+    &--active {
+      font-weight: bold;
+    }
+  }
+}

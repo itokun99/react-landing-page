@@ -1,0 +1,22 @@
+.SiteHeader {
+  background-color: $theme-primary;
+  color: $text-light;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $gutter-sm;
+    padding-bottom: $gutter-sm
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    padding-right: $gutter-sm
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,47 @@
+// HEADING TAG
+
+h1 {
+  font-size: $font-xxxl;
+  font-weight: bold;
+  margin-bottom: calc(#{$gutter-s} + 2px);
+}
+
+h2 {
+  font-size: $font-xxl;
+  font-weight: bold;
+  margin-bottom: calc(#{$gutter-s} + 2px);
+}
+
+h3 {
+  font-size: $font-xl;
+  font-weight: bold;
+  margin-bottom: calc(#{$gutter-s} + 2px);
+}
+
+h4 {
+  font-size: $font-l;
+  font-weight: bold;
+  margin-bottom: calc(#{$gutter-s} + 2px);
+}
+
+h5 {
+  font-size: $font-m;
+  font-weight: bold;
+  margin-bottom: calc(#{$gutter-s} + 2px);
+}
+
+h6 {
+  font-size: $font-s;
+  font-weight: bold;
+  margin-bottom: $gutter-sm;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4
+}
