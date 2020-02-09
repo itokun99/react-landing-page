@@ -1,7 +1,7 @@
 import { React, useMemo } from 'libraries';
 import { Container, Section, Image } from 'components/atoms';
 import { ImgAboutIllustration } from 'assets';
-import { GoCode, GoGitBranch, GoCloudUpload, GoCheck } from 'react-icons/go';
+import { GoCode, GoGitBranch, GoCheck } from 'react-icons/go';
 
 const AboutSection = () =>
   useMemo(

@@ -1,9 +1,18 @@
 import { React } from 'libraries';
-import { Container, Section, HeroBanner, AboutSection } from 'components';
+import {
+  Container,
+  Section,
+  HeroBanner,
+  AboutSection,
+  FeaturedSection,
+  ProjectSection
+} from 'components';
 
 const Homepage = () => (
   <React.Fragment>
     <HeroBanner />
+    <FeaturedSection />
+    <ProjectSection />
     <AboutSection />
   </React.Fragment>
 );

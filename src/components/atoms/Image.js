@@ -29,7 +29,6 @@ const Image = ({
           >
             {children}
           </div>
-          ;
         </React.Fragment>
       );
     }
