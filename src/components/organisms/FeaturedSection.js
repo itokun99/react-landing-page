@@ -18,10 +18,9 @@ const FeaturedSection = () =>
                 <div className="FeaturedSection__item-body">
                   <h3 className="FeaturedSection__item-title">Learning</h3>
                   <p className="FeaturedSection__item-desc">
-                    Proident pariatur magna esse amet eu dolore duis. Do qui
-                    excepteur dolor veniam ut ea velit voluptate officia minim
-                    ullamco. Laboris qui nulla ea esse. In aliquip in incididunt
-                    nostrud. Minim aute ipsum laborum veniam do Lorem.
+                    Di Kabayan Coding, banyak hal yang bisa kamu dapat setelah
+                    bergabung dengan kami. Kamu akan di arahkan ke Dunia Coding
+                    yang produktif dan Menyenangkan
                   </p>
                 </div>
               </div>
@@ -36,10 +35,9 @@ const FeaturedSection = () =>
                 <div className="FeaturedSection__item-body">
                   <h3 className="FeaturedSection__item-title">Coding</h3>
                   <p className="FeaturedSection__item-desc">
-                    Proident pariatur magna esse amet eu dolore duis. Do qui
-                    excepteur dolor veniam ut ea velit voluptate officia minim
-                    ullamco. Laboris qui nulla ea esse. In aliquip in incididunt
-                    nostrud. Minim aute ipsum laborum veniam do Lorem.
+                    Tidak hanya belajar secara teori saja. Kabayan Coding juga
+                    memfasilitasi kamu yang belajar coding secara intensif dan
+                    bisa langsung terjun ke project
                   </p>
                 </div>
               </div>

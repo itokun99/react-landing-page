@@ -10,33 +10,34 @@ const AboutSection = () =>
         <Container>
           <div className="AboutSection__wrapper">
             <div className="AboutSection__intro">
-              <h5 className="AboutSection__intro-subtitle">About Us</h5>
+              <h5 className="AboutSection__intro-subtitle">Tentang Kami</h5>
               <h2 className="AboutSection__intro-title">
-                We help drive your Apps publish to Everyone
+                Bootcamp Coding yang menyenangkan dan Gratis
               </h2>
               <p className="AboutSection__description">
-                Proactively syndicate open-source e-markets after low-risk
-                high-yield synergy. Professionally simplify visionary technology
-                before team driven sources.
+                Karena basic-nya komunitas, kita terbuka bagi kamu yang ingin
+                belajar seputar dunia coding namun terkendala biaya juga sarana.
+                Disini kita mabar, juga bakalan bimbing kamu agar bisa ngoding
+                dengan harapan:
               </p>
               <div className="AboutSection__icon-wrapper">
                 <div className="AboutSection__icon-column">
                   <div className="AboutSection__icon">
                     <GoCode />
                   </div>
-                  <span>Start with High Quality Code</span>
+                  <span>Kualitas Code yang bagus</span>
                 </div>
                 <div className="AboutSection__icon-column">
                   <div className="AboutSection__icon">
                     <GoGitBranch />
                   </div>
-                  <span>Consistent Commit and Release</span>
+                  <span>Aktif dan selalu Commit</span>
                 </div>
                 <div className="AboutSection__icon-column">
                   <div className="AboutSection__icon">
                     <GoCheck />
                   </div>
-                  <span>Publish to Everyone</span>
+                  <span>Pastinya Deliver</span>
                 </div>
               </div>
             </div>

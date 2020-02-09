@@ -50,7 +50,7 @@ const ProjectSection = () =>
         <Container>
           <div className="ProjectSection__wrapper">
             <div className="ProjectSection__title">
-              <h2>Our Project</h2>
+              <h2>Project Kabayan Coding</h2>
             </div>
             <div className="ProjectSection__content">
               <div className="ProjectSection__row">
