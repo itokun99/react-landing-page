@@ -3,9 +3,9 @@ import { Section, Container } from 'components/atoms';
 import { Logo, Nav } from 'components/molecules';
 
 const navigation = [
-  { title: 'About', url: '/about' },
-  { title: 'Contact', url: '/contact' },
-  { title: 'Blog', url: '/blog' }
+  { title: 'Feature', url: '#feature' },
+  { title: 'Project', url: '#project' },
+  { title: 'About', url: '#about' }
 ];
 
 const SiteHeader = () =>

@@ -5,7 +5,7 @@ import { ImgCoding, ImgLearning } from 'assets';
 const FeaturedSection = () =>
   useMemo(
     () => (
-      <Section className="FeaturedSection">
+      <Section id="feature" className="FeaturedSection">
         <Container>
           <div className="FeaturedSection__wrapper">
             <div className="FeaturedSection__column">

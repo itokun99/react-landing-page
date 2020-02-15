@@ -46,7 +46,7 @@ const projects = [
 const ProjectSection = () =>
   useMemo(
     () => (
-      <Section className="ProjectSection">
+      <Section id="project" className="ProjectSection">
         <Container>
           <div className="ProjectSection__wrapper">
             <div className="ProjectSection__title">

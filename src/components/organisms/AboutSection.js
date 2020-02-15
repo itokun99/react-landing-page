@@ -6,7 +6,7 @@ import { GoCode, GoGitBranch, GoCheck } from 'react-icons/go';
 const AboutSection = () =>
   useMemo(
     () => (
-      <Section className="AboutSection">
+      <Section id="about" className="AboutSection">
         <Container>
           <div className="AboutSection__wrapper">
             <div className="AboutSection__intro">

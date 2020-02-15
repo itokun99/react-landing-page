@@ -2,7 +2,7 @@ import { React, PropTypes } from 'libraries';
 import { Section, Container } from 'components/atoms';
 
 const HeroBanner = () => (
-  <Section className="HeroBanner">
+  <Section id="welcome" className="HeroBanner">
     <Container>
       <div className="HeroBanner__wrapper">
         <div className="HeroBanner__content">
