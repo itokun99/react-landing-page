@@ -1,0 +1,90 @@
+.SiteFooter {
+  $self: &;
+
+  background-color: #3f3d56;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  color: $text-light;
+
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $tablet) {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__content-left {
+    max-width: 375px;
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__content-right {
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+
+
+  &__brand {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: $tablet) {
+      justify-content: center;
+      margin-bottom: $gutter-xl;
+    }
+  }
+
+  &__brand-image {
+    width: 42px;
+    margin-right: $gutter-xs;
+
+    @media screen and (max-width: $large-phone) {
+      width: 32px;
+    }
+  }
+
+  &__brand-title {
+    margin: 0;
+
+    @media screen and (max-width: $large-phone) {
+      font-size: 28px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: $tablet) {
+      justify-content: center;
+    }
+  }
+
+  &__social-icon {
+    font-size: 32px;
+    color: $text-light;
+    display: inline-flex;
+    align-items: center;
+    padding-left: $gutter-s;
+  }
+
+  &__copy-right {
+    background-color: #39374d;
+    color: $text-light;
+    text-align: center;
+    padding: $gutter-s;
+    font-size: $font-xs;
+  }
+}

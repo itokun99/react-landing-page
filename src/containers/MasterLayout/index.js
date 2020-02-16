@@ -1,10 +1,11 @@
 import { React, PropTypes } from 'libraries';
-import { SiteHeader } from 'components';
+import { SiteHeader, SiteFooter } from 'components';
 
 const MasterLayout = ({ children }) => (
   <React.Fragment>
     <SiteHeader />
     {children}
+    <SiteFooter />
   </React.Fragment>
 );
 
