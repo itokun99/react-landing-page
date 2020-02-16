@@ -13,4 +13,11 @@
     max-width: 525px;
     color: $text-light
   }
+
+  &__headline {
+    @media screen and (max-width: $ipad) {
+      font-size: $font-xxl;
+      margin-bottom: $gutter-xs;
+    }
+  }
 }

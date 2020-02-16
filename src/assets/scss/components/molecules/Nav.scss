@@ -1,4 +1,24 @@
 .Nav {
+  transition: 0.3s linear;
+
+  @media screen and (max-width: $tablet) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    z-index: 2;
+    padding-top: 50px;
+    transform: translateX(100%);
+    opacity: 0;
+
+    &--active {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
   &__item {
     font-size: $font-s;
     color: $text-light;
@@ -9,6 +29,69 @@
 
     &--active {
       font-weight: bold;
+    }
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+      color: #222;
+      font-size: 18px;
+      padding: 12px;
+    }
+  }
+
+
+
+  &__burger {
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: relative;
+
+
+    span {
+      position: absolute;
+      width: 80%;
+      height: 5px;
+      background-color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      &:nth-child(1) {
+        top: calc(50% - 10px)
+      }
+
+      &:nth-child(3) {
+        top: calc(50% + 10px)
+      }
+    }
+
+    &--close {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+
+      span {
+        background-color: #222;
+
+        &:nth-child(1) {
+          top: 50%;
+          transform: translate(-50%, -50%) rotate(-45deg);
+        }
+
+        &:nth-child(2) {
+          display: none;
+        }
+
+        &:nth-child(3) {
+          top: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+      }
+    }
+
+    @media screen and (max-width: $tablet) {
+      display: block;
     }
   }
 }

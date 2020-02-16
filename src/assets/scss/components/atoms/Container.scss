@@ -4,4 +4,16 @@
   margin: 0 auto 0 auto;
   padding-left: 12px;
   padding-right: 12px;
+
+  @media screen and (max-width: $laptop) {
+    max-width: $notebook;
+  }
+
+  @media screen and (max-width: $notebook) {
+    max-width: $ipad;
+  }
+
+  @media screen and (max-width: $ipad) {
+    max-width: $tablet;
+  }
 }

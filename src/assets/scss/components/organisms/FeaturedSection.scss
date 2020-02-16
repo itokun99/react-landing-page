@@ -13,6 +13,11 @@
   &__column {
     width: 50%;
     padding: 0 24px;
+
+    @media screen and (max-width: $small-tablet) {
+      width: 100%;
+      margin-bottom: 50px;
+    }
   }
 
   &__item {
@@ -27,5 +32,24 @@
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
+
+    @media screen and (max-width: $small-tablet) {
+      max-width: 375px;
+      margin: 0 auto 0 auto;
+      padding-bottom: 40%;
+    }
   }
+
+  &__item-title {
+    @media screen and (max-width: $ipad) {
+      font-size: $font-l;
+    }
+  }
+
+  &__item-desc {
+    @media screen and (max-width: $ipad) {
+      font-size: $font-s;
+    }
+  }
+
 }

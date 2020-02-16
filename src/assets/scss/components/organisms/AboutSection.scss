@@ -13,10 +13,41 @@
   &__intro {
     width: 50%;
     padding-right: $gutter-m;
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
   }
+
+
+  &__intro-title {
+    @media screen and (max-width: $ipad) {
+      font-size: $font-xl;
+      line-height: 32px;
+    }
+  }
+
+  &__description {
+    @media screen and (max-width: $ipad) {
+      font-size: $font-s;
+      line-height: 24px;
+    }
+  }
+
 
   &__illustration {
     width: 50%;
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+      text-align: right;
+    }
+
+    img {
+      @media screen and (max-width: $tablet) {
+        max-width: 375px;
+      }
+    }
   }
 
 
@@ -53,6 +84,10 @@
     align-items: center;
     width: 100%;
     margin-bottom: $gutter-sm;
+
+    @media screen and (max-width: $ipad) {
+      font-size: $font-s;
+    }
   }
 
   &__icon {
@@ -66,5 +101,11 @@
     font-size: 24px;
     margin-right: $gutter-sm;
     border-radius: 8px;
+
+
+    @media screen and (max-width: $ipad) {
+      width: 32px;
+      height: 32px;
+    }
   }
 }
