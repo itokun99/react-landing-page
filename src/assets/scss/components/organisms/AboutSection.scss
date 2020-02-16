@@ -5,6 +5,11 @@
   align-items: center;
   min-height: 100vh;
 
+  @media screen and (max-width: $tablet) {
+    padding-bottom: 42px;
+    padding-top: 42px;
+  }
+
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +51,7 @@
     img {
       @media screen and (max-width: $tablet) {
         max-width: 375px;
+        width: 100%;
       }
     }
   }
