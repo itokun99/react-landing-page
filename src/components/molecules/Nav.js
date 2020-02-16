@@ -6,15 +6,20 @@ const Nav = ({ navigation }) =>
       <nav className="Nav">
         {navigation &&
           navigation.map((nav, index) => (
-            <NavLink
-              className="Nav__item"
-              to={nav.url}
-              key={index}
-              title={nav.title}
-              activeClassName="Nav__item--active"
-            >
-              {nav.title}
-            </NavLink>
+            <React.Fragment>
+              {/* <NavLink
+                className="Nav__item"
+                to={nav.url}
+                key={index}
+                title={nav.title}
+                activeClassName="Nav__item--active"
+              >
+                {nav.title}
+              </NavLink> */}
+              <a key={index} className="Nav__item" href={nav.url}>
+                {nav.title}
+              </a>
+            </React.Fragment>
           ))}
       </nav>
     ),
